@@ -9,10 +9,10 @@ A simple demo `service` on Kubernetes with NodeJS
 
 Các biến môi trường:
 
-|   Tên biến   | Điều kiện  | Giá trị mẫu                |             Diễn giải              |
-|--------------|------------|----------------------------|------------------------------------|
-| `PORT`       | `required` | 3000                       | Cổng app lắng nghe                 |
-| `MONGODB_URI`| `optional` | mongodb://<sv-name>:<port> | Uri kết nối tới mongo service      |
+|   Tên biến   | Điều kiện  | Giá trị mẫu                  |             Diễn giải              |
+|--------------|------------|------------------------------|------------------------------------|
+| `PORT`       | `required` | 3000                         | Cổng app lắng nghe                 |
+| `MONGODB_URI`| `optional` | mongodb://`<sv-name>:<port>` | Uri kết nối tới mongo service      |
 
 Docker image (có thể tự build hoặc sử dụng sẵn image sau):
 - `thanh1669/demo-node-service`
