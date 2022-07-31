@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 const enviroment = {
-    port: process.env.PORT || 3000,
+    port: process.env.PORT,
     version: process.env.VERSION,
     mongoUri: process.env.MONGODB_URI
 };
