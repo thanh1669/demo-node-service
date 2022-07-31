@@ -1,5 +1,5 @@
-# Demo Node Deployment
-A simple demo deployment on Kubernetes with NodeJS
+# Demo Node Service
+A simple demo `service` on Kubernetes with NodeJS
 
 ## Author: Thanh Nguyen
 - Personal profile: https://github.com/thanh1669
