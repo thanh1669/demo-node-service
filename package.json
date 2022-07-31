@@ -1,0 +1,19 @@
+{
+    "name": "demo-node-service",
+    "version": "1.0.0",
+    "description": "A simple demo service on Kubernetes with  NodeJS",
+    "main": "index.js",
+    "repository": "https://github.com/thanh1669/demo-node-service",
+    "author": "Thanh Nguyen <thanhlocalhost@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "mongoose": "^6.5.0",
+        "nodemon": "^2.0.19"
+    }
+}
